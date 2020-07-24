@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "An Oracle JavaScript Extension Toolkit(JET) web app",
   "scripts": {
-	"build": "oject build"
+	"build": "ojet build"
   },
   "dependencies": {
     "@oracle/oraclejet": "~9.0.0"
