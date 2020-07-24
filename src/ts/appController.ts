@@ -1,5 +1,4 @@
 import * as ko from "knockout";
-import * as ModuleUtils from "ojs/ojmodule-element-utils";
 import * as ResponsiveUtils from "ojs/ojresponsiveutils";
 import * as ResponsiveKnockoutUtils from "ojs/ojresponsiveknockoututils";
 import * as OffcanvasUtils from "ojs/ojoffcanvas";
@@ -11,12 +10,11 @@ import ArrayDataProvider = require("ojs/ojarraydataprovider");
 import "ojs/ojknockout";
 import "ojs/ojmodule-element";
 import { ojNavigationList } from "ojs/ojnavigationlist";
-import { ojModule } from "ojs/ojmodule-element";
 
 interface CoreRouterDetail {
   label: string;
   iconClass: string;
-};
+}
 
 class RootViewModel {
   manner: ko.Observable<string>;
