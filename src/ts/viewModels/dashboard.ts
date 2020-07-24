@@ -1,5 +1,6 @@
 import * as AccUtils from "../accUtils";
-class DashboardViewModel {
+import "ojs/ojasyncvalidator-numberrange";
+export class DashboardViewModel {
 
   constructor() {
 
@@ -34,5 +35,3 @@ class DashboardViewModel {
     // implement if needed
   }
 }
-
-export = DashboardViewModel;
